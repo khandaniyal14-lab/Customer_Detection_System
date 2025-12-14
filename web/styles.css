@@ -1,0 +1,15 @@
+body{font-family:system-ui,Segoe UI,Arial,sans-serif;margin:0;padding:20px;background:#0b0c10;color:#c5c6c7}
+.wrap{max-width:1000px;margin:0 auto}
+h1{color:#66fcf1;font-size:22px;margin:0 0 16px}
+.card{background:#1f2833;border-radius:8px;padding:16px;margin-bottom:16px}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.row>div{flex:1}
+label{display:block;font-size:12px;margin-bottom:6px;color:#c5c6c7}
+input,select,button{width:100%;padding:10px;border-radius:6px;border:1px solid #45a29e;background:#0b0c10;color:#c5c6c7}
+button{cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.status{display:flex;gap:12px}
+.pill{padding:6px 10px;border-radius:999px;background:#0b0c10;border:1px solid #45a29e}
+.list{max-height:220px;overflow:auto}
+.item{padding:8px;border-bottom:1px solid #0b0c10}
+.item b{color:#66fcf1}

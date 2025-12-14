@@ -1,0 +1,7 @@
+- Activate venv: .\.venv\Scripts\activate
+- Place videos in dataset/ (default).
+- Launch with on-screen drawing and zones save:
+ .\.venv\Scripts\python person_detection.py --show --zones zones.json --employee_side right
+.\.venv\Scripts\python person_detection.py --show --zones zones.json --frame_stride 2
+
+.\.venv\Scripts\python -m uvicorn server:app --host 127.0.0.1 --port 8000
